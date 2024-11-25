@@ -6,6 +6,6 @@ function Circle(radius) {
     }
 }
 
-const another = Circle(1);
+const another = new Circle(7);
 
 console.log(another.radius);
